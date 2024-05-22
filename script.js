@@ -143,7 +143,8 @@ function convertGender(gender) {
         male : "masculino",
         female : "feminino",
         genderless: "sem gênero",
-        "n/a" : "não se aplica"
+        unknown: "desconhecido",
+        "n/a" : "não se aplica",
     };
 
     return genero [gender.toLowerCase()] || gender;
